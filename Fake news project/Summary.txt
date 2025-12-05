@@ -1,0 +1,15 @@
+I created a Fake News Detection system that uses machine learning to classify news articles as real or fake. The main idea behind the project is to show how text data can be converted into numerical features and then used by a model to identify patterns commonly found in misinformation.
+
+I prepared a dataset containing examples of real and fake news and used TF-IDF vectorization to extract the important words and phrases from each article. After this, I trained a Logistic Regression model, saved it, and built a small application so anyone can test the model with different types of inputs.
+
+The app accepts three sources of news:
+
+Manually typed or pasted text
+
+A URL, from which the article text is automatically extracted
+
+A PDF or text file uploaded by the user
+
+The model then displays its prediction along with approximate confidence scores. I also added a simple explanation feature that highlights words which influenced the prediction, making the results easier to understand.
+
+The goal of this project was not to store every news article, but to build a complete end-to-end ML pipeline that can generalize and make predictions on unseen content. This project helped me understand data preprocessing, text classification, model training, deployment using Streamlit, and how real machine learning systems are built and used.
